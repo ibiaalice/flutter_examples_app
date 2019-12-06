@@ -1,4 +1,7 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:todo/models/item.dart';
 
 //casca
@@ -25,10 +28,10 @@ class HomePage extends StatefulWidget {
 
   HomePage() {
     items = [];
-    items.add(Item(title: 'S.O', done: true));
-    items.add(Item(title: 'A.S', done: false));
-    items.add(Item(title: 'B.D', done: true));
-    items.add(Item(title: 'Redes', done: true));
+    // items.add(Item(title: 'S.O', done: true));
+    // items.add(Item(title: 'A.S', done: false));
+    // items.add(Item(title: 'B.D', done: true));
+    // items.add(Item(title: 'Redes', done: true));
   }
 
   @override
@@ -43,6 +46,7 @@ class _HomePageState extends State<HomePage> {
     }
     setState(() {
       widget.items.add(Item(title: newTaskCtrl.text, done: false));
+      save();
       newTaskCtrl.clear();
     });
   }
@@ -50,7 +54,30 @@ class _HomePageState extends State<HomePage> {
   void remove(int index) {
     setState(() {
       widget.items.removeAt(index);
+      save();
     });
+  }
+
+  Future load() async {
+    var preference = await SharedPreferences.getInstance();
+    var data = preference.getString('data');
+
+    if (data != null) {
+      Iterable decoded = jsonDecode(data);
+      List<Item> result = decoded.map((i) => Item.fromJson(i)).toList();
+      setState(() {
+        widget.items = result;
+      });
+    }
+  }
+
+  save() async {
+    var preference = await SharedPreferences.getInstance();
+    await preference.setString('data', jsonEncode(widget.items));
+  }
+
+  _HomePageState() {
+    load();
   }
 
   @override
@@ -83,6 +110,7 @@ class _HomePageState extends State<HomePage> {
               onChanged: (value) {
                 setState(() {
                   item.done = value;
+                  save();
                 });
               },
             ),
