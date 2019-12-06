@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:todo/models/item.dart';
+import 'package:todo/pages/login.page.dart';
 
 //casca
 void main() => runApp(App());
@@ -11,13 +12,13 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Todo app',
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.indigo,
-      ),
-      home: HomePage(),
-    );
+        title: 'Todo app',
+        debugShowCheckedModeBanner: false,
+        theme: ThemeData(
+          primarySwatch: Colors.indigo,
+        ),
+        home: LoginPage(),//HomePage(),
+        );
   }
 }
 
