@@ -1,3 +1,4 @@
+import 'package:dog_life/pages/home.page.dart';
 import 'package:dog_life/pages/reset-password-page.dart';
 import 'package:dog_life/pages/signup.page.dart';
 import 'package:flutter/material.dart';
@@ -110,6 +111,16 @@ class LoginPage extends StatelessWidget {
                         ],
                       ),
                       onPressed: () => {
+                        /**
+                         * aqui vai vir a verificacao de login e senha
+                         */
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => HomePage(),
+                          ),
+                        ),
+
                         //aqui vem a verificação e repaginação
                       },
                     ),
