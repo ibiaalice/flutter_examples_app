@@ -1,4 +1,4 @@
-name: dog_life
+name: meu_primeiro_app
 description: A new Flutter project.
 
 # The following defines the version and build number for your application.
@@ -27,7 +27,6 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  
 
 
 # For information on the generic Dart part of this file, see the
@@ -71,15 +70,3 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
-
-  
-  assets:
-   - assets/logo.png
-   - assets/bone.png
-   - assets/fb-icon.png
-   - assets/reset-password-icon.png
-   - assets/profile-picture.png
-   - assets/user-picture.png
-   - assets/app-logo.png
-   - assets/post-picture-001.png
-

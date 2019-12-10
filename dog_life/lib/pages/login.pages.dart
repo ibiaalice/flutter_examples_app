@@ -161,7 +161,7 @@ class LoginPage extends StatelessWidget {
                           )
                         ],
                       ),
-                      onPressed: () {},
+                      onPressed: () => {},
                     ),
                   ),
                 ),
