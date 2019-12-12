@@ -70,3 +70,10 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+  assets:
+  - images/botao_jogar.png
+  - images/botao_voltar.png
+  - images/logo.png
+  - images/moeda_cara.png
+  - images/moeda_coroa.png
