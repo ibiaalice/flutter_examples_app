@@ -4,7 +4,7 @@ import 'package:flutter/rendering.dart';
 class TelaSecundaria extends StatefulWidget {
   String valor;
 
-  TelaSecundaria(String s, {this.valor});
+  TelaSecundaria(String s, {valor});
 
   @override
   _TelaSecundariaState createState() => _TelaSecundariaState();
