@@ -34,7 +34,7 @@ class _TelaPrincipalState extends State<TelaPrincipal> {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => TelaSecundaria(),
+                    builder: (context) => TelaSecundaria('biaalice'),
                   ),
                 );
               },
