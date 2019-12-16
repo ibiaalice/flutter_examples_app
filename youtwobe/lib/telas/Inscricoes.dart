@@ -10,7 +10,7 @@ class _InscricoesState extends State<Inscricoes> {
   Widget build(BuildContext context) {
     return Container(
       child: Text(
-        'Em Alta',
+        'Inscrições',
         style: TextStyle(fontSize: 25),
       ),
     );

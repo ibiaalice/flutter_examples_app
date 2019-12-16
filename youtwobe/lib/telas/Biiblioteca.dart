@@ -10,7 +10,7 @@ class _BibliotecaState extends State<Biblioteca> {
   Widget build(BuildContext context) {
     return Container(
       child: Text(
-        'Em Alta',
+        'Biblioteca',
         style: TextStyle(fontSize: 25),
       ),
     );

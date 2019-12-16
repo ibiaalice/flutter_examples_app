@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:youtwobe/telas/Biiblioteca.dart';
+import 'package:youtwobe/telas/EmAlta.dart';
+import 'package:youtwobe/telas/Inicio.dart';
+import 'package:youtwobe/telas/Inscricoes.dart';
 
 class InitialPage extends StatefulWidget {
   @override
@@ -10,10 +14,10 @@ class _InitialPageState extends State<InitialPage> {
   @override
   Widget build(BuildContext context) {
     List<Widget> telas = [
-      Text('Inicio'),
-      Text('Em Alta'),
-      Text('Inscrições'),
-      Text('Biblioteca'),
+      Inicio(),
+      EmAlta(),
+      Inscricoes(),
+      Biblioteca(),
     ];
 
     return Scaffold(
