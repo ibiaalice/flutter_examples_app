@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "179688307681",
+    "firebase_url": "https://wtpp-74254.firebaseio.com",
+    "project_id": "wtpp-74254",
+    "storage_bucket": "wtpp-74254.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179688307681:android:112eb557ccf925e7c4b0a0",
+        "android_client_info": {
+          "package_name": "com.example.wpp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "179688307681-5ilp3ldmv9bjekp6euklr9pkh33a4q84.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeWjCMG75M7ZCDlTILDHuCzc5etXxCpfI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "179688307681-5ilp3ldmv9bjekp6euklr9pkh33a4q84.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
