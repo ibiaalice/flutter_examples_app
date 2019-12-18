@@ -11,6 +11,38 @@ class TelaSecundaria extends StatefulWidget {
 }
 
 class _TelaSecundariaState extends State<TelaSecundaria> {
+  Widget draw = Drawer(
+    child: ListView(
+      children: <Widget>[
+        UserAccountsDrawerHeader(
+          accountName: Text('Beatriz Alice'),
+          accountEmail: Text('ibiaalice@gmail.com'),
+          currentAccountPicture: CircleAvatar(
+            backgroundColor: Colors.grey,
+            child: Text(
+              'foto ',
+              style: TextStyle(fontSize: 15),
+            ),
+          ),
+        ),
+        ListTile(
+          title: Text('Carteira'),
+          trailing: Icon(Icons.account_balance_wallet),
+          onTap: () {
+            print('apertou carteira');
+          },
+        ),
+        ListTile(
+          title: Text('Histórico de Corridas'),
+          trailing: Icon(Icons.equalizer),
+          onTap: () {
+            print('apertou Histórico de corridas');
+          },
+        ),
+      ],
+    ),
+  );
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -24,10 +56,11 @@ class _TelaSecundariaState extends State<TelaSecundaria> {
       body: Container(
         child: Column(
           children: <Widget>[
-            Text('SEGUNDA TELA, VALOR PASSADO: ${widget.valor}')
+            //
           ],
         ),
       ),
+      drawer: this.draw,
     );
   }
 }
