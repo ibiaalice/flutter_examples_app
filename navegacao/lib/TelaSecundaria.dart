@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:navegacao/carteira.dart';
 import 'arquivo.dart';
 
 class TelaSecundaria extends StatefulWidget {
@@ -48,19 +49,36 @@ class _TelaSecundariaState extends State<TelaSecundaria> {
           //Stack(),
         ],
       ),
-      drawer: f.montaDrawerInicial('um', 'dois', Icons.child_care, Icons.close,
-          'Beatriz', 'beatrizalice00@gmail.com'),
+      drawer: f.montaDrawerInicial(
+        'um',
+        'dois',
+        Icons.child_care,
+        Icons.close,
+        'Beatriz',
+        'beatrizalice00@gmail.com',
+        mudaPaginaCarteira,
+      ),
       floatingActionButton:
           f.montaBotaoLocalizacao(Icons.location_on, Colors.indigo),
       bottomNavigationBar: f.montaBottomBar(
-          _scaffoldKey,
-          'menu',
-          Icons.menu,
-          'escanear',
-          Icons.camera,
-          'Info',
-          Icons.info_outline,
-          Colors.lightBlue),
+        _scaffoldKey,
+        'menu',
+        Icons.menu,
+        'escanear',
+        Icons.camera,
+        'Info',
+        Icons.info_outline,
+        Colors.lightBlue,
+      ),
+    );
+  }
+
+  void mudaPaginaCarteira() {
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) => MyWallet(),
+      ),
     );
   }
 }

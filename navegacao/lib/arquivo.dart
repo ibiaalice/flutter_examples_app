@@ -1,8 +1,16 @@
 import 'package:flutter/material.dart';
+import 'dart:io';
 
 class funcoes {
-  Drawer montaDrawerInicial(String titulo1, String titulo2, IconData icone1,
-      IconData icone2, String nomeUser, String emailUser) {
+  Drawer montaDrawerInicial(
+    String titulo1,
+    String titulo2,
+    IconData icone1,
+    IconData icone2,
+    String nomeUser,
+    String emailUser,
+    mudaPaginaCarteira,
+  ) {
     return Drawer(
       child: ListView(
         children: <Widget>[
@@ -16,12 +24,18 @@ class funcoes {
             accountName: Text(nomeUser),
           ),
           ListTile(
-            title: Text(titulo1),
-            trailing: Icon(icone1),
+            title: Text('Minha carteira'),
+            trailing: Icon(Icons.account_balance_wallet),
+            onTap: () {
+              mudaPaginaCarteira();
+            },
           ),
           ListTile(
-            title: Text(titulo2),
+            title: Text('exit'),
             trailing: Icon(icone2),
+            onTap: () {
+              exit(0);
+            },
           ),
         ],
       ),

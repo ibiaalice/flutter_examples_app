@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:navegacao/TelaPrincipal.dart';
+import 'package:navegacao/carteira.dart';
 
 void main() => runApp(Home());
 
@@ -9,7 +10,8 @@ class Home extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Navegacao',
-      home: TelaPrincipal(),
+      //home: TelaPrincipal(),
+      home: MyWallet(),
     );
   }
 }
