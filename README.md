@@ -2,6 +2,8 @@
 
 Repositório com alguns modelos de aplicativos desenvolvidos para o exercicio da linguagem.
 
+> Alguns projetos estão incompletos... (sorry) 
+
 ## Lista de projetos
 
 * [Alcool ou Gasolina?](https://github.com/ibiaalice/flutter_examples_app/tree/master/alcool_gasolina)
