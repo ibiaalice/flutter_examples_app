@@ -24,4 +24,6 @@ Repositório com alguns modelos de aplicativos desenvolvidos para o exercicio da
 * [Projeto Com Bloc](https://github.com/ibiaalice/flutter_examples_app/tree/master/proj_com_bloc)
 * [Somais](https://github.com/ibiaalice/flutter_examples_app/tree/master/somais)
 * [ToDo](https://github.com/ibiaalice/flutter_examples_app/tree/master/todo)
+* [WPP](https://github.com/ibiaalice/flutter_examples_app/tree/master/wpp/lib)
+* [YouTwoBe](https://github.com/ibiaalice/flutter_examples_app/tree/master/youtwobe)
 
