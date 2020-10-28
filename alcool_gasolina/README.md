@@ -1,16 +1,19 @@
 # alcool_gasolina
 
-A new Flutter project.
+### Como emular?
+<br />
+ Seguindo os passos, primeiramente instalando os pacotes
+<br />
+<code> flutter pub get </code>
+<br />
+Com o emulador e/ ou  celular conectado:
+<br />
+<code> flutter run </code>
+<br />
+<br />
+<br />
+<br />
+<p  align="center">
+<img  src="https://i.pinimg.com/originals/85/2d/d7/852dd715c4d680522c392531e0ce9afe.png"  heigth="100"  width="400"/>
+<p/>
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
