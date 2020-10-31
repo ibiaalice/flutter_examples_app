@@ -17,7 +17,9 @@ class HomePage extends StatelessWidget {
           width: 40,
           decoration: new BoxDecoration(
             image: new DecorationImage(
-              image: AssetImage('asserts/user-picture.png'),
+              scale: 1,
+              image: NetworkImage(
+                  'https://i.guim.co.uk/img/media/fe1e34da640c5c56ed16f76ce6f994fa9343d09d/0_174_3408_2046/master/3408.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=0d3f33fb6aa6e0154b7713a00454c83d'),
               fit: BoxFit.fitHeight,
             ),
           ),
@@ -67,21 +69,21 @@ Widget cardItem() {
           // leading: Icon(Icons.album),
           leading: CircleAvatar(
             backgroundImage: NetworkImage(
-                'https://www.hypeness.com.br/wp-content/uploads/2019/09/Vira-lata_Caramelo_2.jpg'),
+                'https://static1.bigstockphoto.com/0/6/2/large1500/260666896.jpg'),
           ),
           title: Text('User'),
-          subtitle: Text('11/09/2019 às 18:08'),
+          subtitle: Text('11/10/2019 às 18:08'),
           trailing: Icon(Icons.more_vert),
         ),
         Container(
           padding: EdgeInsets.all(10),
           child: Image.network(
-              'https://www.hypeness.com.br/wp-content/uploads/2019/09/Vira-lata_Caramelo_2.jpg'),
+              'https://www.hypeness.com.br/1/2019/09/Vira-lata_Caramelo_1.jpg'),
         ),
         Container(
           padding: EdgeInsets.all(10),
           child: Text(
-              "Todo mundo sabe que os vira-latas são cachorros mais inteligentes, afetuosos e até mesmo saudáveis que os cães de raça, mas nenhum parece carregar mais o espírito que o caramelo. A internet já sabe disso há tempos, e verdadeiras campanhas vem sendo levantadas virtualmente – pela instauração de um dia para o vira-lata caramelo, pela confirmação do cachorro como um símbolo nacional, e até mesmo para que, como são as vacas na Índia, o vira-lata caramelo se torne um animal sagrado em solo nacional."),
+              "Todo mundo sabe que os vira-latas são cachorros mais inteligentes, afetuosos e ..."),
         ),
         ButtonTheme.bar(
           child: ButtonBar(
