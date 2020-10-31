@@ -18,31 +18,33 @@ class _SwitchBottomState extends State<SwitchBottom> {
         ),
       ),
       body: Container(
-        child: Column(
-          children: <Widget>[
-            Switch(
-              value: _valueNotification,
-              onChanged: (bool value) {
-                setState(() {
-                  this._valueNotification = value;
-                });
-                print("valor notif " + _valueNotification.toString());
-              },
+          padding: EdgeInsets.only(top: 160),
+          child: Center(
+            child: Column(
+              children: <Widget>[
+                Switch(
+                  value: _valueNotification,
+                  onChanged: (bool value) {
+                    setState(() {
+                      this._valueNotification = value;
+                    });
+                    print("valor notif " + _valueNotification.toString());
+                  },
+                ),
+                Text('Receber notificações?'),
+                Switch(
+                  value: _valueConfiguration,
+                  onChanged: (value) {
+                    setState(() {
+                      _valueConfiguration = value;
+                    });
+                    print('valor config ' + _valueConfiguration.toString());
+                  },
+                ),
+                Text('Ativar Configurações'),
+              ],
             ),
-            Text('Receber notificações?'),
-            Switch(
-              value: _valueConfiguration,
-              onChanged: (value) {
-                setState(() {
-                  _valueConfiguration = value;
-                });
-                print('valor config ' + _valueConfiguration.toString());
-              },
-            ),
-            Text('Ativar Configurações'),
-          ],
-        ),
-      ),
+          )),
     );
   }
 }
