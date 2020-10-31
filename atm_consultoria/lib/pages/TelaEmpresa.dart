@@ -30,11 +30,11 @@ class _TelaEmpresaState extends State<TelaEmpresa> {
                   child: Image.asset('images/detalhe_empresa.png'),
                 ),
                 Padding(
-                  padding: EdgeInsets.all(10),
+                  padding: EdgeInsets.all(5),
                   child: Text(
                     'Sobre a empresa',
                     style: TextStyle(
-                        fontSize: 30,
+                        fontSize: 25,
                         color: Colors.orange[800],
                         fontWeight: FontWeight.bold),
                   ),

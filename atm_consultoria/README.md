@@ -1,16 +1,40 @@
 # atm_consultoria
 
-A new Flutter project.
+### Como emular?
+<br />
+ Seguindo os passos, primeiramente instalando os pacotes
+<br />
+<code> flutter pub get </code>
+<br />
+Com o emulador e/ ou  celular conectado:
+<br />
+<code> flutter run </code>
+<br />
+<br />
+<br />
+<br />
+<p  align="center">
+<img  src="https://i.pinimg.com/originals/4a/97/86/4a9786285c48f537cb22483b80f0f2d6.png"  heigth="100"  width="400"/>
+<p/>
 
-## Getting Started
+<br />
+<p  align="center">
+<img  src="https://i.pinimg.com/originals/30/30/03/30300331d33f6e6ff18b3691d2e72e9a.png"  heigth="100"  width="400"/>
+<p/>
 
-This project is a starting point for a Flutter application.
+<br />
+<p  align="center">
+<img  src="https://i.pinimg.com/originals/01/50/68/01506882e55cb2e50f1c35ff8df494cc.png"  heigth="100"  width="400"/>
+<p/>
 
-A few resources to get you started if this is your first Flutter project:
+<br />
+<p  align="center">
+<img  src="https://i.pinimg.com/originals/29/24/db/2924db22986578eae45296342c4d3b8d.png"  heigth="100"  width="400"/>
+<p/>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+<br />
+<p  align="center">
+<img  src="https://i.pinimg.com/originals/5c/2a/4b/5c2a4be5190bba88f939dfb3e0f02033.png"  heigth="100"  width="400"/>
+<p/>
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+

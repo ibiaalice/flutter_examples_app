@@ -27,11 +27,12 @@ class _TelaClienteState extends State<TelaCliente> {
               //imagem e titulo
               children: <Widget>[
                 Padding(
-                  padding: EdgeInsets.all(20),
+                  padding:
+                      EdgeInsets.only(left: 20, top: 60, right: 40, bottom: 60),
                   child: Image.asset('images/detalhe_cliente.png'),
                 ),
                 Padding(
-                  padding: EdgeInsets.all(10),
+                  padding: EdgeInsets.all(5),
                   child: Text(
                     'Clientes',
                     style: TextStyle(
@@ -49,7 +50,7 @@ class _TelaClienteState extends State<TelaCliente> {
                   padding: EdgeInsets.all(20),
                   child: Text(
                     'Empresa de Software',
-                    style: TextStyle(fontSize: 18, color: Colors.black54),
+                    style: TextStyle(fontSize: 15, color: Colors.black54),
                   ),
                 ),
                 Padding(
@@ -68,7 +69,7 @@ class _TelaClienteState extends State<TelaCliente> {
                   padding: EdgeInsets.all(20),
                   child: Text(
                     'Empresa de Auditoria',
-                    style: TextStyle(fontSize: 18, color: Colors.black54),
+                    style: TextStyle(fontSize: 15, color: Colors.black54),
                   ),
                 ),
               ],
