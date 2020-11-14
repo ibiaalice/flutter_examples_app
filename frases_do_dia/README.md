@@ -1,7 +1,5 @@
 # frases_do_dia
 
-## Consumo de api básico com o CEP 
-
 ### Como emular?
 <br />
  Seguindo os passos, primeiramente instalando os pacotes

@@ -1,7 +1,5 @@
 # listas
 
-## Consumo de api básico com o CEP 
-
 ### Como emular?
 <br />
  Seguindo os passos, primeiramente instalando os pacotes
@@ -22,4 +20,5 @@ Com o emulador e/ ou  celular conectado:
 <p  align="center">
 <img  src="https://i.pinimg.com/originals/bf/a3/4b/bfa34b8910b86d0fd3da848e9126110f.png"  heigth="100"  width="400"/>
 <p/>
+
 

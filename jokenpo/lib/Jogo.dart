@@ -58,7 +58,7 @@ class _JogoState extends State<Jogo> {
           Image.asset(_imageResult),
 
           Padding(
-            padding: EdgeInsets.only(top: 32, bottom: 16),
+            padding: EdgeInsets.only(top: 10, bottom: 10),
             child: Text(
               'Sua escolha:',
               textAlign: TextAlign.center,
@@ -97,7 +97,7 @@ class _JogoState extends State<Jogo> {
           Column(
             children: <Widget>[
               Container(
-                margin: EdgeInsets.fromLTRB(0, 40, 0, 0),
+                margin: EdgeInsets.fromLTRB(0, 20, 0, 0),
                 width: 250,
                 height: 100,
                 alignment: Alignment.center,
