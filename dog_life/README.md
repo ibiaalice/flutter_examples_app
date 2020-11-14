@@ -19,15 +19,10 @@ Com o emulador e/ ou  celular conectado:
 
 <br />
 <p  align="center">
-<img  src="https://i.pinimg.com/originals/f0/e1/88/f0e1881e6318a13352b34ea49157b0bb.png"  heigth="100"  width="400"/>
-<p/>
-
-<br />
-<p  align="center">
 <img  src="https://i.pinimg.com/originals/d9/4e/fa/d94efa2285604c0cae1ea7df0641b6a3.png"  heigth="100"  width="400"/>
 <p/>
 
 <br />
 <p  align="center">
-<img  src=""  heigth="100"  width="400"/>
+<img  src="https://i.pinimg.com/originals/f0/e1/88/f0e1881e6318a13352b34ea49157b0bb.png"  heigth="100"  width="400"/>
 <p/>
