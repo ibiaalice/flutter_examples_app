@@ -1,16 +1,25 @@
 # listas
 
-A new Flutter project.
+## Consumo de api básico com o CEP 
 
-## Getting Started
+### Como emular?
+<br />
+ Seguindo os passos, primeiramente instalando os pacotes
+<br />
+<code> flutter pub get </code>
+<br />
+Com o emulador e/ ou  celular conectado:
+<br />
+<code> flutter run </code>
+<br />
+<br />
+<br />
+<br />
+<p  align="center">
+<img  src="https://i.pinimg.com/originals/0e/06/96/0e06967b8d80de6fafa51ab5411a3411.png"  heigth="100"  width="400"/>
+<p/>
 
-This project is a starting point for a Flutter application.
+<p  align="center">
+<img  src="https://i.pinimg.com/originals/bf/a3/4b/bfa34b8910b86d0fd3da848e9126110f.png"  heigth="100"  width="400"/>
+<p/>
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.

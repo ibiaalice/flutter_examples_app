@@ -64,6 +64,7 @@ class _ListsState extends State<Lists> {
                         ),
                       ),
                       RaisedButton(
+                        color: Colors.greenAccent,
                         // padding: EdgeInsets.all(20),
                         onPressed: () {
                           setState(() {
