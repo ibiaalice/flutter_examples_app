@@ -17,7 +17,6 @@ Repositório com alguns modelos de aplicativos desenvolvidos para o exercicio da
 * [Jokenpo](https://github.com/ibiaalice/flutter_examples_app/tree/master/jokenpo)
 * [Listas](https://github.com/ibiaalice/flutter_examples_app/tree/master/listas)
 * [LoginBloc](https://github.com/ibiaalice/flutter_examples_app/tree/master/loginbloc)
-* [MyBloc](https://github.com/ibiaalice/flutter_examples_app/tree/master/mybloc)
 * [Navegação](https://github.com/ibiaalice/flutter_examples_app/tree/master/navegacao)
 * [Preço BitCoin](https://github.com/ibiaalice/flutter_examples_app/tree/master/preco_bitcoin)
 * [ToDo](https://github.com/ibiaalice/flutter_examples_app/tree/master/todo)
