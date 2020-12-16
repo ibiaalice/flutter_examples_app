@@ -20,6 +20,4 @@ Repositório com alguns modelos de aplicativos desenvolvidos para o exercicio da
 * [Navegação](https://github.com/ibiaalice/flutter_examples_app/tree/master/navegacao)
 * [Preço BitCoin](https://github.com/ibiaalice/flutter_examples_app/tree/master/preco_bitcoin)
 * [ToDo](https://github.com/ibiaalice/flutter_examples_app/tree/master/todo)
-* [WPP](https://github.com/ibiaalice/flutter_examples_app/tree/master/wpp/lib)
 * [YouTwoBe](https://github.com/ibiaalice/flutter_examples_app/tree/master/youtwobe)
-
